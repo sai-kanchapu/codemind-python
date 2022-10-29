@@ -1,8 +1,8 @@
-a = int(input())
-b = list(map(int,input().split()))
-x,y = map(int,input().split())
-sum = 0
+a=int(input())
+b=list(map(int,input().split()))
+c,d=map(int,input().split())
+s=0
 for i in b:
-    if i<x or i>y:
-        sum = sum+i
-print(sum)
+    if i<c or i>d:
+        s=s+i
+print(s)
